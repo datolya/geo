@@ -14,14 +14,14 @@ function Expertise() {
     },
     {
       title: "User Personas",
-      description: "Search is no longer keyword driven, it's context aware. In AI Mode, the generic Google user doesn't exist. Instead of optimizing for raw input, we need to know who's behind the screen. Every query carries chat history, user preferences and personal intent. We build probabilistic user personas, simulate conversations, and test how AI surfaces your brand to specific audiences.",
+      description: "Search is no longer keyword driven, it's context aware. In AI Mode, the generic Google user doesn't exist. Instead of optimizing for raw input, we need to know who's behind the screen. Every query carries chat history, preferences and personal intent. We build probabilistic personas, simulate conversations, and test how AI surfaces your brand to specific audiences.",
       items: [
         {name: "Ask Us!", logo: "images/datolya-logo.png"}
       ]
     },
     {
       title: "Website Dev (AX)",
-      description: "Along with UX, agentic experience (AX) is emerging. Users now direct LLMs to crawl and understand the web on their behalf, returning with ready-made answers. Accurate schema markup is essential for guiding AI crawlers. HTML sitemaps reinforce internal semantic links. We ensure that Google's, OpenAI's or Anthropic's bots understand exactly what you offer - and cite you correctly.",
+      description: "Along with UX, agentic experience (AX) is emerging. Users now direct LLMs to crawl and understand the web on their behalf, returning with ready-made answers. Accurate schema markup is essential for guiding AI crawlers. HTML sitemaps reinforce internal semantic links. We ensure that Google's or OpenAI's bots understand your offer - and cite you correctly.",
       items: [
         { name: "Schema.org markup", logo: "images/schema_markup.webp" },
         { name: "Robots (AX)", logo: "images/robotstxt.png" },
