@@ -235,7 +235,7 @@ function Hero() {
 
         <div className="container hero-content">
           <div className="hero-text-container">
-            <h1 style={{textAlign: 'left'}}>GEO as a Service</h1>
+            <h1 style={{textAlign: 'left'}}>SEO has become GEO.</h1>
 
             <div className="rotating-title" style={{textAlign: 'left', display: 'flex', justifyContent: 'flex-start'}}>
               <span id="rotating-text">{text}</span>
@@ -244,11 +244,11 @@ function Hero() {
 
             <div className="hero-intro">
               <p className="intro-paragraph" style={{paddingLeft: '0px'}}>
-                <strong>Clicks are gone. AI visibility is everything.</strong> ChatGPT and Google decide what users see - before they even reach your site.
+                <strong>Clicks are gone. AI visibility is everything.</strong> ChatGPT and Google decide what users see, before they even reach your site.
               </p>
 
               <p className="intro-paragraph" style={{paddingLeft: '20px'}}>
-                <strong>We engineer presence in LLMs.</strong> To dominate AI answers, we must simulate, optimize and track appearance.
+                <strong>We upscale presence in LLMs.</strong> To dominate AI answers, we must simulate, optimize and track appearance.
                </p>
 
               <p className="intro-paragraph" style={{paddingLeft: '40px'}}>

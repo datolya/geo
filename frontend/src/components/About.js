@@ -443,10 +443,10 @@ function About() {
             <div className="company-intro">
               <h3>You Are How You <i>Appear</i></h3>
               <p className="lead">
-                A boutique AI search consultancy specialized in GEO, semantic engineering and LLM-powered content optimization. We upscale visibility in ChatGPT, Gemini AI Search, and other AI surfaces.
+                A boutique AI search consultancy specialized in GEO, semantic rewrites and content optimization built for LLMs. We upscale visibility in ChatGPT, Gemini (Google) and other AI surfaces.
               </p>
               <p>
-                <b>We turn narrative chaos into revenue.</b>
+                <b>We turn narrative chaos into revenue from LLMs.</b>
                 <br />
                 <br />In the AI era, clicks don't matter - visibility does. When users ask AI, your brand needs to be seen, cited, and recommended. Our solution is battle tested at enterprise giants such as WeTransfer, Evernote and Bending Spoons. We offer what we've mastered, ready to optimize your presence.
                 <br />

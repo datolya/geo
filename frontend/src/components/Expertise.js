@@ -5,7 +5,7 @@ function Expertise() {
 
     {
       title: "Appearance Simulation (GEO)",
-      description: "Clicks are the past, visibility is everything. AI answers are a display channel where LLMs mediate brand presence. We simulate RAG retrieval, test content chunks and predict brand appearance in Gemini Search, ChatGPT and other LLMs. Track historic visibility trends, and know where you rank in the AI's mind.",
+      description: "Clicks are yesterday's metric, visibility is everything. AI answers are a display channel where LLMs mediate brand presence. We simulate RAG retrieval, test content chunks, and predict brand appearance in Gemini Search, ChatGPT and other LLMs. Track historic visibility trends and discover where you rank in the AI's mind.",
       items: [
         { name: "Llamaindex", logo: "/images/llamaindex.png" },
         { name: "LangChain", logo: "/images/langchain.png" },
@@ -14,14 +14,14 @@ function Expertise() {
     },
     {
       title: "User Personas",
-      description: "Search is no longer keyword driven, but context aware. In AI Mode, the generic Google user doesn't exist. Rather than optimizing on raw input, we must know who sits behind the screen. Every query includes chat history, user preference and personal intent. We build probabilistic user personas, simulate conversations, and test how AI surfaces your brand to specific audiences.",
+      description: "Search is no longer keyword driven, it's context aware. In AI Mode, the generic Google user doesn't exist. Instead of optimizing for raw input, we need to know who's behind the screen. Every query carries chat history, user preferences and personal intent. We build probabilistic user personas, simulate conversations, and test how AI surfaces your brand to specific audiences.",
       items: [
         {name: "Ask Us!", logo: "/images/datolya-logo.png"}
       ]
     },
     {
       title: "Website Dev (AX)",
-      description: "Next to UX, agentic experience (AX) is born. People order LLMs to crawl and understand the web on their behalf, to return with ready made answers. Accurate schema markup is fundamental to guide AI crawlers. HTML sitemaps reinforce internal semantic links. We ensure that Google, OpenAI or Anthropic's bots understand exactly what you offer - and cite you right.",
+      description: "Along with UX, agentic experience (AX) is emerging. Users now direct LLMs to crawl and understand the web on their behalf, returning with ready-made answers. Accurate schema markup is essential for guiding AI crawlers. HTML sitemaps reinforce internal semantic links. We ensure that Google's, OpenAI's or Anthropic's bots understand exactly what you offer - and cite you correctly.",
       items: [
         { name: "Schema.org markup", logo: "/images/schema_markup.webp" },
         { name: "Robots (AX)", logo: "/images/robotstxt.png" },
@@ -30,7 +30,7 @@ function Expertise() {
     },
     {
       title: "Vector Databases",
-      description: "Vectors are a mathematical representation of meaning. They reveal where your website content lives relative to competitors who dominate AI citations. We map each paragraph mathematically, measure semantic distance, and optimize passage-level extractability. Identify gaps, compute retrieval likelihood and win the semantic race.",
+      description: "Vectors are mathematical representations of meaning. They reveal where your content stands relative to competitors dominating AI citations. We map each paragraph mathematically, measure semantic distance, and optimize passage-level retrievability. Identify gaps, compute retrieval likelihood and win the semantic race.",
       items: [
         { name: "Hugging Face", logo: "/images/hugging_face.png" },
         { name: "Screaming Frog", logo: "/images/screaming_frog.webp" },
@@ -42,7 +42,7 @@ function Expertise() {
     },
     {
       title: "Cloud Solutions",
-      description: "Need everything in your own infrastructure? We deploy full GEO pipelines natively in GCP or AWS. Embeddings, analytics, automation and business intelligence in a single environment. Track AI visibility without vendor lock-in.",
+      description: "Need everything in your own infrastructure? We deploy complete GEO pipelines natively in GCP or AWS. Embeddings, analytics, automation and business intelligence - all in a single environment. Track AI visibility without vendor lock-in.",
       items: [
         {
           name: "GCP",
