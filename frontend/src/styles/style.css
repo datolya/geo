@@ -1,0 +1,801 @@
+/* =================== Body & Background =================== */
+body {
+  font-family: 'Proxima Nova', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top left, #f5e6dd, #e0c8b8 50%, #caa37f 100%);
+  color: #3b2f2f;
+  transition: all 0.3s ease;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/* =================== Hero Section =================== */
+header {
+  background: linear-gradient(135deg, #b8926d 0%, #a67c5c 50%, #8b6b4a 100%);
+  color: #fefbf6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hero Button: Professional & Smooth */
+.hero-cta-button {
+  display: inline-block;
+  padding: 16px 48px;
+  background: linear-gradient(135deg, #8b6b4a 0%, #a67c5c 100%);
+  color: #fefbf6;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid rgba(212, 163, 115, 0.3);
+  box-shadow: 0 4px 15px rgba(139, 107, 74, 0.25);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  margin-top: 2rem;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.hero-cta-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.hero-cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(139, 107, 74, 0.35);
+  border-color: rgba(212, 163, 115, 0.5);
+  color: #fefbf6;
+  text-decoration: none;
+}
+
+.hero-cta-button:hover::before {
+  left: 100%;
+}
+
+.hero-cta-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 10px rgba(139, 107, 74, 0.3);
+}
+
+/* Keep old button styles for backwards compatibility */
+.btn-gradient {
+  background: linear-gradient(90deg, #d4a373, #b28c68, #8b6b4a);
+  border: none;
+  border-radius: 40px;
+  padding: 15px 40px;
+  color: #fefbf6;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.btn-gradient::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.15);
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+}
+
+.btn-gradient:hover::before {
+  top: -20%;
+  left: -20%;
+  width: 240%;
+  height: 240%;
+}
+
+.btn-gradient:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 15px 25px rgba(178, 140, 104, 0.3);
+}
+
+/* =================== Navbar =================== */
+nav.navbar {
+  background: rgba(59, 47, 47, 0.95); /* dark brown, slightly transparent */
+  transition: background 0.3s ease;
+  padding: 0.1 rem 0;
+}
+nav .nav-link {
+  color: #f5f1e6 !important; /* light cream text */
+  font-weight: 600;
+  transition: color 0.3s ease;
+  font-family: 'Proxima Nova', sans-serif;
+}
+nav .nav-link:hover {
+  color: #d4a373 !important; /* caramel highlight on hover */
+}
+
+.navbar-brand img {
+  height: 90px;
+  width: auto;
+  background-color: transparent;
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+/* Subtle rotate + lift + glow on hover */
+.navbar-brand img:hover {
+  transform: translateY(-5px) rotate(8deg);
+  filter: drop-shadow(0 8px 20px rgba(212, 163, 115, 0.7));
+}
+
+.navbar-tagline {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: rgba(245, 241, 230, 0.8);
+  margin-top: 2px;
+}
+
+/* =================== Hero Section =================== */
+header {
+  background: linear-gradient(135deg, #2d2420 0%, #3b2f2f 50%, #4a3f3a 100%);
+  color: #fefbf6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Data Pipeline Network */
+.data-pipeline-network {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Pipeline Nodes */
+.pipeline-node {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #d4a373;
+  border-radius: 50%;
+  opacity: 0.2;
+  box-shadow: 0 0 15px rgba(212, 163, 115, 0.4);
+}
+
+.pipeline-node::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #d4a373;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+}
+
+/* Pipeline Lines */
+.pipeline-line {
+  position: absolute;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    #b28c68 5%,
+    #d4a373 50%,
+    #b28c68 95%,
+    transparent 100%
+  );
+  opacity: 0.15;
+}
+
+.pipeline-line.horizontal {
+  height: 2px;
+}
+
+.pipeline-line.vertical {
+  width: 2px;
+  background: linear-gradient(180deg,
+    transparent 0%,
+    #b28c68 5%,
+    #d4a373 50%,
+    #b28c68 95%,
+    transparent 100%
+  );
+}
+
+.pipeline-line.diagonal {
+  height: 2px;
+  background: linear-gradient(90deg,
+    #d4a373 0%,
+    #b28c68 50%,
+    transparent 100%
+  );
+}
+
+/* Add glow effect to lines */
+.pipeline-line::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: blur(3px);
+  opacity: 0.5;
+}
+
+#cursor {
+  font-weight: 400;
+  font-family: monospace;
+  display: inline-block;
+  animation: blink 1s infinite;
+  color: #6b5344;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+header h1 {
+  font-size: 2.23rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #2d2420;
+  line-height: 1.2;
+   font-family: 'Proxima Nova', sans-serif;
+}
+
+.rotating-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: #b28c68;
+  min-height: 40px;
+  font-family: 'Proxima Nova', sans-serif;
+  display: flex;
+  justifyContent: 'flex-start'
+}
+
+/* Add/update these styles in your style.cass */
+
+/* Push hero content lower */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin-top: 60px; /* Adds space at the top */
+}
+
+.hero-text-container {
+  background: linear-gradient(135deg, rgba(232, 212, 192, 0.95), rgba(242, 222, 202, 0.90));
+  backdrop-filter: blur(12px);
+  padding: 50px 50px;
+  border-radius: 20px;
+  box-shadow:
+    0 15px 50px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  border: 2px solid rgba(212, 163, 115, 0.4);
+  position: relative;
+  transition: all 0.3s ease;
+  animation: panelGlow 3s ease-in-out infinite;
+  max-width: 900px;
+}
+
+.hero-intro {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.intro-paragraph {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #2d2420;
+  margin-bottom: 18px;
+  font-weight: 400;
+}
+
+.intro-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+/* Make bold text bigger */
+.intro-paragraph strong {
+  font-weight: 700;
+  font-size: 1.15rem; /* Bigger than regular text */
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Make non-bold paragraph text smaller */
+.intro-paragraph:not(:has(strong)) {
+  font-size: 0.95rem;
+  padding-left: 10px;
+}
+
+.hero-origin {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #5a4a42;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.hero-origin em {
+  font-weight: 600;
+  font-style: normal;
+  color: #8b6b4a;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+#cursor {
+  font-weight: 400;
+  font-family: monospace;
+  display: inline-block;
+  animation: blink 1.5s infinite; /* Change from 1s to 1.5s or 2s */
+  color: #6b5344;
+}
+
+/* =================== Sections =================== */
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  color: #b28c68;
+  font-weight: 700;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+/* =================== About Placeholder =================== */
+.about-placeholder {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #fdf6ed, #f4e8d4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3b2f2f;
+  font-size: 1.2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.social-icon-link:hover {
+  color: #d4a373 !important;
+  transform: translateY(-3px) scale(1.1);
+}
+
+.social-icon-link:hover i {
+  transform: scale(1.2);
+}
+
+/* Organic circles for Date Fruit vibes */
+.about-placeholder::before,
+.about-placeholder::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+
+.about-placeholder::before {
+  width: 100px;
+  height: 100px;
+  background: #d4a373;
+  top: -20px;
+  left: -30px;
+}
+
+.about-placeholder::after {
+  width: 80px;
+  height: 80px;
+  background: #b28c68;
+  bottom: -20px;
+  right: -20px;
+}
+
+/* =================== Skills =================== */
+.skills .progress {
+  height: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.skills .progress-bar {
+  background: #b28c68;
+}
+
+/* =================== Portfolio Cards =================== */
+.portfolio-card {
+  height: 220px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #fff8f0, #f7ece1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #3b2f2f;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+/* Shapes for Date Fruit branding */
+.portfolio-card::before,
+.portfolio-card::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.1;
+}
+
+.portfolio-card::before {
+  width: 120px;
+  height: 120px;
+  background: #d4a373;
+  top: -40px;
+  left: -40px;
+}
+
+.portfolio-card::after {
+  width: 80px;
+  height: 80px;
+  background: #b28c68;
+  bottom: -30px;
+  right: -30px;
+}
+
+.portfolio-card h5 {
+  font-weight: 600;
+  color: #3b2f2f;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+.portfolio-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+/* =================== Contact =================== */
+.contact form .form-control {
+  border-radius: 8px;
+  padding: 12px;
+  transition: all 0.3s ease;
+}
+.contact form .form-control:focus {
+  border-color: #b28c68;
+  box-shadow: 0 0 10px rgba(178, 140, 104, 0.3);
+}
+
+/* =================== Footer =================== */
+footer {
+  background: #3b2f2f;
+  color: #f5f1e6;
+  padding: 40px 0;
+}
+footer a {
+  color: #f5f1e6;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+footer a:hover {
+  color: #d4a373;
+}
+
+/* =================== Expertise =================== */
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.expertise-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fdf6ed, #f4e8d4) !important; /* force gradient */
+  border-radius: 20px;
+  width: 130px;
+  height: 130px;
+  padding: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.expertise-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  filter: grayscale(100%) brightness(0); /* all black & white */
+}
+
+.expertise-item p {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+  color: #222;
+}
+
+.expertise-item:hover {
+  transform: translateY(-6px) scale(1.07);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+/* =================== Mobile Responsive =================== */
+@media (max-width: 768px) {
+  /* Prevent horizontal overflow */
+  .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  section {
+    overflow-x: hidden;
+    padding: 60px 0;
+  }
+
+  /* Pipeline animations - constrain to viewport */
+  .data-pipeline-network,
+  .about-pipeline-network {
+    max-width: 100vw;
+  }
+
+  .pipeline-line {
+    max-width: 100%;
+  }
+
+  /* Hero section */
+  header {
+    padding: 60px 15px 40px;
+    overflow-x: hidden;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+  }
+
+  .rotating-title {
+    font-size: 1rem;
+    min-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .hero-content {
+    margin-top: 40px;
+  }
+
+  .hero-text-container {
+    padding: 25px 20px;
+    border-radius: 16px;
+  }
+
+  .hero-intro {
+    margin-bottom: 25px;
+  }
+
+  .intro-paragraph {
+    font-size: 0.9rem;
+    margin-bottom: 18px;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .intro-paragraph strong {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  /* Non-bold text starts on new line with small indent */
+  .intro-paragraph:not(:has(strong)) {
+    padding-left: 10px;
+  }
+
+  .hero-origin {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  .hero-cta-button,
+  .about-cta-button {
+    padding: 12px 24px;
+    font-size: 0.85rem;
+    margin-top: 1.2rem;
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  /* Navbar */
+  .navbar-brand img {
+    height: 60px;
+  }
+
+  nav.navbar {
+    padding: 0.5rem 0;
+  }
+
+  /* Section headings */
+  section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  /* About section panels - FIX THE CUTOFF */
+  .about-section .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .team-container,
+  .company-intro {
+    padding: 25px 20px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* Portfolio cards */
+  .portfolio-card {
+    min-height: auto;
+    padding: 20px 15px;
+    height: auto;
+  }
+
+  .portfolio-card h5 {
+    font-size: 1.1rem;
+  }
+
+  .portfolio-card p {
+    font-size: 0.9rem;
+  }
+
+  /* Expertise grid */
+  .expertise-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+  }
+
+  .expertise-item {
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+  }
+
+  .expertise-item img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .expertise-item p {
+    font-size: 0.8rem;
+    margin-top: 8px;
+  }
+
+  /* Contact form */
+  .contact-form-container {
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+
+  .contact-section .form-control {
+    padding: 14px;
+    font-size: 0.95rem;
+  }
+
+  .contact-submit-btn {
+    padding: 16px 32px;
+    font-size: 1rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 30px 0;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+
+  footer .social-links {
+    gap: 20px;
+  }
+}
+
+/* Large tablets */
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .team-container,
+  .company-intro {
+    padding: 30px;
+  }
+}
+
+/* Touch targets for mobile */
+@media (hover: none) and (pointer: coarse) {
+  .hero-cta-button,
+  .about-cta-button,
+  .contact-submit-btn,
+  nav .nav-link {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
