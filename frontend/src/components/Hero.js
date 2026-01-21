@@ -244,20 +244,20 @@ function Hero() {
 
             <div className="hero-intro">
               <p className="intro-paragraph" style={{paddingLeft: '0px'}}>
-                <strong>Clicks are gone. AI visibility is everything.</strong> ChatGPT and Google decide what users see, before they even reach your site.
+                <strong>Clicks are gone. AI visibility is everything.</strong> ChatGPT and Google decide what users see - before they reach your site.
               </p>
 
               <p className="intro-paragraph" style={{paddingLeft: '20px'}}>
-                <strong>We upscale presence in LLMs.</strong> To dominate AI answers, we must simulate, optimize and track appearance.
+                <strong>We maximize your presence in LLMs.</strong> Dominate AI answers through retrieval simulation and citation tracking.
                </p>
 
               <p className="intro-paragraph" style={{paddingLeft: '40px'}}>
-                <strong> Our team engineered marketing systems for €100M+ tech giants</strong> We offer industry leading know-how to audit how information is retrieved
+                <strong> Our team built marketing automation for €100M+ tech giants</strong> We bring industry leading know-how to audit AI discoverability.
               </p>
             </div>
 
                <p className="hero-origin">
-              <em>datolya</em> — Hungarian for date fruit. In a vast desert of noise, dates are rare and concentrated energy. For AI bots, finding a valuable paragraph is just as scarce - unless engineered.
+              <em>datolya</em> — Hungarian for date fruit. In a vast desert of noise, dates are rare yet packed with energy. For AI bots, valuable content is just as scarce - unless it's engineered.
             </p>
 
             <div style={{textAlign: 'left'}}>
