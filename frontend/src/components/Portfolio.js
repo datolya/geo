@@ -11,7 +11,7 @@ function Portfolio() {
           <br />
         </>
       ),
-      image: "/images/unsplash_aws.jpg",
+      image: "images/unsplash_aws.jpg",
       link: "https://www.upwork.com/services/product/development-it-cloud-data-engineering-consulting-1960738275191146820?ref=fl_profile"
     },
     {
@@ -23,7 +23,7 @@ function Portfolio() {
           <br />
         </>
       ),
-      image: "/images/unsplash_gcp.jpg",
+      image: "images/unsplash_gcp.jpg",
       link: "https://www.upwork.com/services/product/development-it-cloud-data-engineering-consulting-1960738275191146820?ref=fl_profile"
     },
   ];

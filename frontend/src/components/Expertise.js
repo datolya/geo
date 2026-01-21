@@ -7,37 +7,37 @@ function Expertise() {
       title: "Appearance Simulation (GEO)",
       description: "Clicks are yesterday's metric, visibility is everything. AI answers are a display channel where LLMs mediate brand presence. We simulate RAG retrieval, test content chunks, and predict brand appearance in Gemini Search, ChatGPT and other LLMs. Track historic visibility trends and discover where you rank in the AI's mind.",
       items: [
-        { name: "Llamaindex", logo: "/images/llamaindex.png" },
-        { name: "LangChain", logo: "/images/langchain.png" },
-        { name: "Haystack", logo: "/images/haystack.png" }
+        { name: "Llamaindex", logo: "images/llamaindex.png" },
+        { name: "LangChain", logo: "images/langchain.png" },
+        { name: "Haystack", logo: "images/haystack.png" }
       ]
     },
     {
       title: "User Personas",
       description: "Search is no longer keyword driven, it's context aware. In AI Mode, the generic Google user doesn't exist. Instead of optimizing for raw input, we need to know who's behind the screen. Every query carries chat history, user preferences and personal intent. We build probabilistic user personas, simulate conversations, and test how AI surfaces your brand to specific audiences.",
       items: [
-        {name: "Ask Us!", logo: "/images/datolya-logo.png"}
+        {name: "Ask Us!", logo: "images/datolya-logo.png"}
       ]
     },
     {
       title: "Website Dev (AX)",
       description: "Along with UX, agentic experience (AX) is emerging. Users now direct LLMs to crawl and understand the web on their behalf, returning with ready-made answers. Accurate schema markup is essential for guiding AI crawlers. HTML sitemaps reinforce internal semantic links. We ensure that Google's, OpenAI's or Anthropic's bots understand exactly what you offer - and cite you correctly.",
       items: [
-        { name: "Schema.org markup", logo: "/images/schema_markup.webp" },
-        { name: "Robots (AX)", logo: "/images/robotstxt.png" },
-        { name: "Content Sitemap", logo: "/images/html_sitemap.png" },
+        { name: "Schema.org markup", logo: "images/schema_markup.webp" },
+        { name: "Robots (AX)", logo: "images/robotstxt.png" },
+        { name: "Content Sitemap", logo: "images/html_sitemap.png" },
       ]
     },
     {
       title: "Vector Databases",
       description: "Vectors are mathematical representations of meaning. They reveal where your content stands relative to competitors dominating AI citations. We map each paragraph mathematically, measure semantic distance, and optimize passage-level retrievability. Identify gaps, compute retrieval likelihood and win the semantic race.",
       items: [
-        { name: "Hugging Face", logo: "/images/hugging_face.png" },
-        { name: "Screaming Frog", logo: "/images/screaming_frog.webp" },
-        { name: "Pinecone", logo: "/images/pinecone.webp" },
-        { name: "QDrant", logo: "/images/qdrant.png" },
-        { name: "Redis", logo: "/images/redis.png" },
-        { name: "PostGres", logo: "/images/pg_vector.png" },
+        { name: "Hugging Face", logo: "images/hugging_face.png" },
+        { name: "Screaming Frog", logo: "images/screaming_frog.webp" },
+        { name: "Pinecone", logo: "images/pinecone.webp" },
+        { name: "QDrant", logo: "images/qdrant.png" },
+        { name: "Redis", logo: "images/redis.png" },
+        { name: "PostGres", logo: "images/pg_vector.png" },
       ]
     },
     {
@@ -46,12 +46,12 @@ function Expertise() {
       items: [
         {
           name: "GCP",
-          logo: "/images/gcp.png",
+          logo: "images/gcp.png",
           subservices: ["Gemini", "BigQuery", "Vertex AI", "GKE"]
         },
         {
           name: "AWS",
-          logo: "/images/aws.png",
+          logo: "images/aws.png",
           subservices: ["Lambda", "SageMaker", "QuickSight", "BedRock"]
         }
       ]
