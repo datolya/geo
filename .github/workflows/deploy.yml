@@ -13,6 +13,8 @@ jobs:
         working-directory: ./frontend
       - run: npm run build
         working-directory: ./frontend
+        env:
+          PUBLIC_URL: /geo
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
